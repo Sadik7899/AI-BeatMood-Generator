@@ -7,7 +7,7 @@ import requests
 
 # Page configuration
 st.set_page_config(
-    page_title="AI Music Remix & Mood Generator",
+    page_title="AI BeatMood Generator",
     page_icon="🎵",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -223,7 +223,7 @@ Provide detailed, actionable advice that a student can understand and apply."""
 # Main App
 def main():
     # Header
-    st.markdown("<h1>🎵 AI Music Remix & Mood Generator</h1>", unsafe_allow_html=True)
+    st.markdown("<h1>🎵 AI BeatMood Generator</h1>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; font-size: 1.2rem; color: #666;'>Create amazing music remixes and mood-based compositions with AI assistance</p>", unsafe_allow_html=True)
     
     # Sidebar for API configuration
@@ -273,7 +273,7 @@ def main():
     
     # Tab 1: Remix Generator
     with tab1:
-        st.header("🎧 AI Music Remix Generator")
+        st.header("🎧 AI BeatMood Generator")
         st.markdown("Transform existing songs into new remixes with AI-powered suggestions")
         
         col1, col2 = st.columns(2)
